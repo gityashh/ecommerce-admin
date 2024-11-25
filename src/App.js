@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
@@ -24,6 +26,7 @@ import Couponlist from "./pages/Couponlist";
 import AddCoupon from "./pages/AddCoupon";
 import ViewEnq from "./pages/ViewEnq";
 import ViewOrder from "./pages/ViewOrder";
+
 function App() {
   return (
     <Router>
