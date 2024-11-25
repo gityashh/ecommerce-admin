@@ -10,7 +10,7 @@ import Bloglist from "./pages/Bloglist";
 import Blogcatlist from "./pages/Blogcatlist";
 import Orders from "./pages/Orders";
 import Customers from "./pages/Customers";
-import Colorlist from "./pages/Colotlist";
+import Colorlist from "./pages/ColorList";
 import Categorylist from "./pages/Categorylist";
 import Brandlist from "./pages/Brandlist";
 import Productlist from "./pages/Productlist";

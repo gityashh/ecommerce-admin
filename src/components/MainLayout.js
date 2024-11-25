@@ -27,19 +27,19 @@ const MainLayout = () => {
   const navigate = useNavigate();
   return (
     <Layout /* onContextMenu={(e) => e.preventDefault()} */>
-      <Sider trigger={null} collapsible collapsed={collapsed}>
-        <div className="logo">
-          <h2 className="text-white fs-5 text-center py-3 mb-0">
-            <span className="sm-logo">DC</span>
-            <span className="lg-logo">Dev Corner</span>
-          </h2>
-        </div>
+      <Sider className="custom-sider" trigger={null} collapsible collapsed={collapsed}>
+      <div className="logo">
+    <h2 className="text-white fs-5 text-center py-3 mb-0">
+      <span className="sm-logo">DC</span>
+      <span className="lg-logo">Dev Corner</span>
+    </h2>
+  </div>
         <Menu
           theme="dark"
           mode="inline"
           defaultSelectedKeys={[""]}
           onClick={({ key }) => {
-            if (key == "signout") {
+            if (key === "signout") {
             } else {
               navigate(key);
             }
@@ -187,7 +187,7 @@ const MainLayout = () => {
                 <img
                   width={32}
                   height={32}
-                  src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg"
+                  src="../assets/images/user.jpg"
                   alt=""
                 />
               </div>
