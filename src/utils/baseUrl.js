@@ -1,1 +1,1 @@
-export const base_url = "http://localhost:3000/api/";
+export const base_url = "https://ecommerce-1f70.onrender.com";
